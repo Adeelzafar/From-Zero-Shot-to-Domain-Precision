@@ -22,6 +22,16 @@ Our models are trained to recognize 10 fine-grained technical entities:
 `VehicleMakeModel`, `FaultCode`, `CustomerReportedSymptom`, `VehicleComponentLocation`, `MaintenanceMethod`, `DeviceProperties`, `MeasurementValue`, `EquipmentName`, `FaultType`, and `TimeDuration`.
 
 ---
+## 📊 Key Results & Methodology
+Our workflow demonstrates that while zero-shot models like GLiNER provide a strong starting point, fine-tuning on synthetically generated domain text significantly boosts precision.
+
+<p align="center">
+  <img src="notebooks/plots/method2.png" width="800">
+  <br>
+  <em>Figure 1: Comparison of F1-scores across WG-BERT, RoBERTa, and GLiNER highlighting robustness against technical noise.</em>
+</p>
+
+---
 
 ## 🛠️ Repository Structure
 - `data/`: Contains `.conll` datasets (including `advarsarial.conll` for robustness testing).
@@ -32,6 +42,10 @@ Our models are trained to recognize 10 fine-grained technical entities:
 
 ---
 
+## 📝 Citation
+If you find this work useful for your research, please cite our ISMIS 2026 paper:
+
+```bibtex
 @inproceedings{zafar2026zeroshot,
   title={From Zero-Shot to Domain Precision: Synthetic Data Fine-Tuning for Robust NER in Low-Resource Domain-Specific Texts},
   author={Zafar, Adeel and Nowaczyk, S{\l}awomir and Sarmadi, Hamid},
