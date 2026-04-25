@@ -11,8 +11,6 @@ Automotive service reports are a goldmine for data-driven fault diagnosis, but t
 * **Domain Jargon**: Highly specialized technical terminology.
 * **Low Resource**: Lack of publicly available labeled datasets.
 * **Structural Variability**: A mix of structured Diagnostic Trouble Codes (DTCs) and unstructured technician notes.
-![Model Performance Heatmap](notebooks/plots/method2.png)
-*Figure 1: F1-Score comparison across WG-BERT, RoBERTa, and GLiNER.*
 This repository provides a framework to bridge this gap using **template-based data synthesis** and **domain-adapted Transformer models** (WG-BERT, RoBERTa), evaluated against zero-shot baselines (GLiNER).
 
 ---
