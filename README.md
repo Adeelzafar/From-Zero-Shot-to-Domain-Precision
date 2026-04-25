@@ -1,7 +1,7 @@
-# Automotive NER: Fine-grained Entity Extraction from Service Reports
+# From Zero-Shot to Domain Precision: Synthetic Data Fine-Tuning for Robust NER in Low-Resource Domain-Specific Texts
 
 Official implementation and datasets for the paper:  
-**"Extracting Fine-Grained Technical Entities from Unstructured Automotive Service Reports"**
+**"From Zero-Shot to Domain Precision: Synthetic Data Fine-Tuning for Robust NER in Low-Resource Domain-Specific Texts"**
 
 ---
 
