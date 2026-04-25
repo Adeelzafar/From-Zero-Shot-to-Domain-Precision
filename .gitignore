@@ -1,0 +1,26 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Local Environment
+env/
+venv/
+.env
+
+# Large Model Weights and Outputs
+output-*/
+ner-roberta-vehicle/
+checkpoint-*/
+logs/
+
+# Data and Logs
+*.log
+.DS_Store
+Thumbs.db
+
+# Generated Figures (Optional: remove this if you want to keep figures in the repo)
+# notebooks/plots/*.png
